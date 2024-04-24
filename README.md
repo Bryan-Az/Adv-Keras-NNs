@@ -1,6 +1,6 @@
 # Adv-Keras-NNs
 
-This repo tests and modifies the models previously created within my [Tensorflow](https://github.com/Bryan-Az/TF-PyTorch-Jax-NN) repository with more advanced Keras methods.
+This repo tests and modifies the models previously created within my [Tensorflow](https://github.com/Bryan-Az/TF-PyTorch-Jax-NN) repository.
 
 ## [Part 1] Regularization and Data Augmentation
 In this section, the custom architecture will be A/B tested and modified to compare different regularization techniques and data augmentation methods.
