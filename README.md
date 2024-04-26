@@ -7,7 +7,7 @@ In this section, the custom architecture will be A/B tested and modified to comp
 
 >  Regularizations compared: L1/L2, Dropout, Earlystop, Montecarlo dropout, Various Initializations, Batch Norm, specified differently for each notebook.
 
-> Data Augmentation compared: KerasCV (images/video), NLPAug (text), FastAI (tabular data), the same in both notebooks.
+> Data Augmentation: KerasCV (images/video), NLPAug (text), FastAI (tabular data), the same in both notebooks.
 
 > Hyperparameter tuning via KerasTuner in both notebooks.
 
@@ -34,3 +34,19 @@ In this section, methods like Tensorboard, normalization layers, optimization te
  > Loss/Eval Metrics Applied: HuberLoss, HuberMetric.
 
  > Activations Applied: ReLU, Leakly ReLU
+
+
+ # References
+- [Tensorflow](tensorflow.org)
+- [Tensorflow, Data Augmentation](https://www.tensorflow.org/tutorials/images/data_augmentation)
+- [Keras, Data Augmentation](https://keras.io/keras_cv/)
+- [Facebook AI, Data Augmentation](https://ai.facebook.com/blog/augly-a-new-data-augmentation-library-to-help-build-more-robust-ai-models/)
+- [Fast AI, Data Augmentation](https://github.com/fastai/fastbook/blob/master/07_sizing_and_tta.ipynb)
+ - [Bruno Krisinski, Data Augmentation](https://brunokrinski.github.io/awesome-data-augmentation/)
+ - [AgaMiko, Data Augmentation](https://github.com/AgaMiko/data-augmentation-review)
+ - [Hands-on ML, Neural Networks with Keras](https://github.com/ageron/handson-ml3/blob/main/10_neural_nets_with_keras.ipynb)
+ - [Hands-on ML, Keras Tuner](https://github.com/ageron/handson-ml3/blob/main/11_training_deep_neural_networks.ipynb)
+ - [Hands-on ML, Training](https://github.com/ageron/handson-ml2/blob/master/11_training_deep_neural_networks.ipynb)
+ - [Hands-on ML, Custom Models](https://github.com/ageron/handson-ml2/blob/master/12_custom_models_and_training_with_tensorflow.ipynb)
+
+
