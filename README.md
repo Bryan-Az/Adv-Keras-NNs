@@ -9,13 +9,15 @@ In this section, regularizations and tuning techniques will be A/B tested in the
 
 > Notebook A Applies:
 - Regularizations: BatchNorm in sequential API, L1, Dropout, and Earlystop: Validation Loss
+- Tuning: KerasTuner
 
 > Notebook B Applies:
 - Regularizations: BatchNorm in Keras API, L2, Montecarlo dropout, and Earlystop: Accuracy
+- Tuning: KerasTuner
 
 Data augmentation methods will be applied in all models (NLP, Tabular, and Vision).
 
-> Data Augmentation applied: KerasCV (images/video), NLPAug (text), FastAI (tabular data) on: 
+> Data Augmentation applied: KerasCV (images/video), TSAug (time-series/numerical), FastAI (text) on: 
 - Custom text model.
 - Custom tabular model.
 - Custom vision model.
