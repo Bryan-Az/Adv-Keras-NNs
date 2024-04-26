@@ -12,4 +12,7 @@ The A/B modifications in part 1 are tested using the following Tensorflow models
 - Custom text model.
 - Custom tabular model.
 - Custom vision model.
- 
+
+ In all directories, there is a Notebook A and Notebook B. 
+- Notebook A: The custom model with the regularization and data augmentation applied.
+- Notebook B: The custom model without regularization and data augmentation.
