@@ -15,7 +15,7 @@ The A/B modifications in part 1 are tested using the following Tensorflow models
 
  To conduct an A/B like experiment, in all directories, there is a Notebook A and Notebook B. 
 > Notebook A Applies:
-- Regularizations: BatchNorm in Keras API, L1, Dropout, and Earlystop: Validation Loss
+- Regularizations: BatchNorm in sequential API, L1, Dropout, and Earlystop: Validation Loss
 
 > Notebook B Applies:
-- Regularizations: BatchNorm in sequential layer, L2, Montecarlo dropout, and Earlystop: Accuracy
+- Regularizations: BatchNorm in Keras API, L2, Montecarlo dropout, and Earlystop: Accuracy
