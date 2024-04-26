@@ -14,5 +14,22 @@ The A/B modifications in part 1 are tested using the following Tensorflow models
 - Custom vision model.
 
  In all directories, there is a Notebook A and Notebook B. 
-- Notebook A: The custom model with the regularization and data augmentation applied.
-- Notebook B: The custom model without regularization and data augmentation.
+> Notebook A Applies:
+- Regularizations: BatchNorm in Keras API, L1, Dropout, and Earlystop: Validation Loss
+
+
+> Data Augmentation:
+- For Text
+- For Tabular
+- For Vision 
+
+> Notebook B Applies:
+- Regularizations: BatchNorm in sequential layer, L2, Montecarlo dropout, and Earlystop: Accuracy
+
+> Data Augmentation:
+- For Text
+- For Tabular
+- For Vision 
+
+
+> Only one notebook will apply HyperParameter tuning.
