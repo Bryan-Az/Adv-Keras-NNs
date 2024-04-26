@@ -5,7 +5,7 @@ In this section, the custom architecture will be A/B tested and modified to comp
 
 > Data Augmentation compared: KerasCV (images/video), NLPAug (text), FastAI (tabular data).
 
-> Hyperparameter tuning via KerasTuner
+> Hyperparameter tuning via KerasTuner in both notebooks
 
 The A/B modifications in part 1 are tested using the following Tensorflow models:
 
@@ -13,23 +13,14 @@ The A/B modifications in part 1 are tested using the following Tensorflow models
 - Custom tabular model.
 - Custom vision model.
 
- In all directories, there is a Notebook A and Notebook B. 
+ To conduct an A/B like experiment, in all directories, there is a Notebook A and Notebook B. 
 > Notebook A Applies:
 - Regularizations: BatchNorm in Keras API, L1, Dropout, and Earlystop: Validation Loss
 
 
-> Data Augmentation:
-- For Text
-- For Tabular
-- For Vision 
+-  Data Augmentation: KerasCV (images/video), NLPAug (text), FastAI (tabular data).
 
 > Notebook B Applies:
 - Regularizations: BatchNorm in sequential layer, L2, Montecarlo dropout, and Earlystop: Accuracy
 
-> Data Augmentation:
-- For Text
-- For Tabular
-- For Vision 
-
-
-> Only one notebook will apply HyperParameter tuning.
+- Data Augmentation: KerasCV (images/video), NLPAug (text), FastAI (tabular data).
