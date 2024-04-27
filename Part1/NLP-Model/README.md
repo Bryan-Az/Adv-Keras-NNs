@@ -1,1 +1,2 @@
 #  Natural Language Processing (NLP) Language Model: Text Data Augmentation
+Using AugLy from Facebook AI to augment the text data taken from reviews' data taken from Amazon by Prof. McAuley from UC San Diego & predict sentiment.
