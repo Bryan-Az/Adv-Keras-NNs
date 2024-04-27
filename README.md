@@ -1,5 +1,7 @@
 # Adv-Keras-NNs
 
+[Watch the video presentation here!](https://youtu.be/YQX73LEC0z4?si=9TS3hHfp4WPKuk0Z)
+
 This repo tests and modifies the models previously created within my [Tensorflow](https://github.com/Bryan-Az/TF-PyTorch-Jax-NN) & [Keras, HuggingFace, and FastAI](https://github.com/Bryan-Az/Keras-HF-FastAi) repository.
 
 ## [Part 1] Regularization A/B and Data Augmentation
