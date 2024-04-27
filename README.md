@@ -20,19 +20,18 @@ Data augmentation methods is applied in all models (NLP, Tabular, and Vision).
 - Custom tabular model.
 - Custom vision model.
 
-## [Part 2] Tensorboard: Normalization, Optimization, Training, and Evaluation
-In this section, a model is created that customizes important model attributes such as normalization, optimization, loss, and activation and Hyperparameter tuning.
+## [Part 2] KerasTuner, Normalization, Optimization, Training, and Evaluation
+In this section, the tabular model in part 1 is advanced by adding important model attributes such as normalization, optimization, loss, and activation and Hyperparameter tuning.
 
  > Normalization applied: alpha dropout via custom layer.
 
- > Optimizer and Initialization applied: momentum optimization via custom optimizer & learning rate scheduler, with He Normal initialization.
+ > Optimizer and Initialization applied: momentum optimization via custom optimizer, with He Normal initialization.
 
  > Loss Metric Applied: HuberLoss.
 
- > Activation Applied: Leakly ReLU
+ > Activation Applied: A custom l1 regularizer
 
-> Hyperparameter tuning: KerasTuner and Tensorboard.
-
+> Hyperparameter tuning: KerasTuner.
 
  # References
 - [Tensorflow](tensorflow.org)
