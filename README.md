@@ -20,16 +20,18 @@ Data augmentation methods is applied in all models (NLP, Tabular, and Vision).
 - Custom tabular model.
 - Custom vision model.
 
-## [Part 2] KerasTuner, Normalization, Optimization, Training, and Evaluation
+## [Part 2] KerasTuner, Custom Layers, Optimization, Custom Loss/Regularizer, Training, and Evaluation
 In this section, the tabular model in part 1 is advanced by adding important model attributes such as normalization, optimization, loss, and activation and Hyperparameter tuning.
 
- > Normalization applied: alpha dropout via custom layer.
+> Normalization Layer: BatchNorm
 
- > Optimizer and Initialization applied: momentum optimization via custom optimizer, with He Normal initialization.
+> Custom Layer: Einsum matrix multiplication.
 
- > Loss Metric Applied: HuberLoss.
+> Optimizer and Initialization applied: Adam Momentum Optimizer
 
- > Activation Applied: A custom l1 regularizer
+> Custom Loss Metric Applied: HuberLoss.
+
+> Custom Activation Applied: l1 regularizer
 
 > Hyperparameter tuning: KerasTuner.
 
