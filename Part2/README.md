@@ -1,12 +1,13 @@
 # [Part 2] Tensorboard: Normalization, Optimization, Training, and Evaluation
-In this section, methods like Tensorboard, normalization layers, optimization techniques, model training, and tuning of the weight initializer, loss activation and evaluation metrics are implemented.
+In this section, a model is created that customizes important model attributes such as normalization, optimization, loss, and activation and Hyperparameter tuning.
 
- > Normalizations applied: alpha dropout via custom layer, a custom tensorflow.Dataset in the training loop.
+ > Normalizations applied: alpha dropout via custom layer.
 
- > Optimizers applied: momentum optimization via custom optimizer & learning rate scheduler, a custom ResNet (Residual Network) model with He Normal initialization.
+ > Optimizer and Initialization applied: momentum optimization via custom optimizer & learning rate scheduler, with He Normal initialization.
 
- > Loss/Eval Metrics Applied: HuberLoss, HuberMetric.
+ > Loss Metric Applied: HuberLoss.
 
- > Activations Applied: ReLU, Leakly ReLU
+ > Activation Applied: Leakly ReLU
 
+> Hyperparameter tuning: KerasTuner and Tensorboard.
  
