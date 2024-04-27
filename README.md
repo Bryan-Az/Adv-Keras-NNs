@@ -34,7 +34,6 @@ In this section, the tabular model in part 1 is advanced by adding important mod
 > Custom Activation Applied: l1 regularizer
 
 > Hyperparameter tuning: KerasTuner.
-
  # References
 - [Tensorflow](tensorflow.org)
 - [Tensorflow, Data Augmentation](https://www.tensorflow.org/tutorials/images/data_augmentation)
