@@ -11,7 +11,7 @@ In this section, regularizations will be A/B tested in the Tabular Model directo
 
 Data augmentation methods will be applied in all models (NLP, Tabular, and Vision).
 
-> Data Augmentation applied: KerasCV (images/video), TSAug (time-series/numerical), FastAI (text) on: 
-- Custom text model.
-- Custom tabular model.
-- Custom vision model.
+> Data Augmentation applied: KerasCV (images/video), TSAug (time-series/numerical), FastAI (text) using these libraries 
+- Pre-trained Large Language Model (LLM), finetuned text data augmentation via FastAI
+- Custom tabular time-series model trained on augmented data via TSAug
+- Custom vision model on pre-trained backbone, image data augmented via KerasCV
